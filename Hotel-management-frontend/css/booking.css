@@ -1,0 +1,88 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Oswald', sans-serif;
+}
+
+
+label{
+    font-size: 1.1rem;
+    display: inline-block;
+    margin-bottom: .5rem;
+    min-width: 25%;
+}
+
+.form-input{
+    width: 70%;
+    padding: .7rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.left-column{
+    flex: 1;
+    position: relative;
+}
+.title{
+    position: absolute;
+    left: 12%;
+    top: 15%;
+    color: aliceblue;
+    font-size: 3rem;
+    letter-spacing: 5px;
+    margin-bottom: 2rem;
+}
+
+.right-column{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+
+.left-column_image{
+    width: 100%;
+    height: 100vh;
+}
+.footer-section{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+
+}
+.btn{
+    width: 100%;
+    padding: .6rem;
+    margin-bottom: .5rem;
+    border: 0;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary{
+    background-color: #007bff;
+    color: white;
+
+}
+
+.btn-reset{
+    background-color: rgb(244, 235, 235);
+    color: black;
+
+}
+.form-total{
+    display: inline-block;
+}
+
+.booking{
+    display: flex;
+}

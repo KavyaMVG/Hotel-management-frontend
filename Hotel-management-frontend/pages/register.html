@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0" />
+    <title>Document</title>
+    <script defer src="../js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/register.css" />
+  </head>
+  <body>
+    <div class="register-page">
+      <div class="img--section">
+        <img class ="image" src="../images/mobile-landing-page-mistakes-1540x768.jpeg" />
+      </div>
+      <div class="content">
+      <form class="form">
+        <h1 class="title">Register</h1>
+        <label>Firstname</label>
+        <input
+          required 
+          type="text"
+          class="details first-name"
+        />
+        <label>Lastname</label>
+        <input required type="text" class="details last-name"/>
+        <label>Phone Number</label>
+        <input required type="number" class="details phone"/>
+        <label>E-mail</label>
+        <input type="email" class="details email"/>
+        <label>Create password</label>
+        <input
+          required
+          type="password"
+          class="details password"
+        />
+        <label>Confirm password</label>
+        <input
+          required
+          type="password"
+          class="details con-password"
+        />
+          <input class=" footer btn" type="submit" />
+          <input class=" footer btn btn-primary" type="reset" />
+          <p>
+            Don't have an account? <a href="../index.html">Login</a>
+          </p>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
